@@ -1,0 +1,36 @@
+# Compiled Python bytecode
+*.py[cod]
+
+# Log files
+*.log
+static/*.out
+static/*.log
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# JetBrains IDE
+.idea/
+
+# Unit test reports
+TEST*.xml
+
+### Python ###
+__pycache__/
+
+__pypackages__/
+
+# Environments
+.env
+.venv
+venv/
+venv.bak/
+
+# google files
+./static/credentials.json
+static/credentials.json
+
+# local docker-compose files
+./docker-compose-local-db.yml
+docker-compose-local-db.yml
